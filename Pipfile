@@ -1,0 +1,19 @@
+[[source]]
+url = "http://pypi.doubanio.com/simple/"
+verify_ssl = false
+name = "pypi"
+
+[packages]
+scrapy = "*"
+django = "*"
+thulac = "*"
+py2neo = {version="==3.1.2"}
+cython = "*"
+pyfasttext = "*"
+pymongo = "*"
+pinyin = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
